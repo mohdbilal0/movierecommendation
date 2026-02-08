@@ -34,3 +34,10 @@ h1{
     align-items: center;
 
 }
+@media (max-width: 768px) {
+    main{
+        grid-template-columns: 300px;
+    }
+    
+}
+
