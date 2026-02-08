@@ -8,6 +8,7 @@ main{
     grid-template-columns: 300px 300px 300px;
     justify-content: space-around;
     row-gap: 50px;
+    column-gap:50px
 }
 .card{
     background-color:  rgb(180, 179, 179);
@@ -31,4 +32,5 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
