@@ -30,3 +30,10 @@ h1{
     column-gap: 50px;
 
 }
+@media (max-width: 768px) {
+    #container{
+        grid-template-columns: 300px;
+    }
+    
+}
+
