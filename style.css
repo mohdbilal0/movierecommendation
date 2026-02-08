@@ -1,0 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+.card{
+    background-color:  rgb(180, 179, 179);
+    padding: 10px;
+    border-radius: 10px;
+    height: 150px;
+
+}
+.card:hover{
+    box-shadow: 4px 4px 10px gray;;
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
